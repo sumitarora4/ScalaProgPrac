@@ -1,4 +1,8 @@
-package Exercises.Strings;object SortInReverseAgeOrder extends  App {
+package Exercises.Strings
+
+import scala.util.Sorting
+
+object SortInReverseAgeOrder extends  App {
 
         case class Person(name: String, age: Int)
         val personArray = Array(Person("Sumit", 37), Person("Kumar", 38), Person("Arora", 40) )

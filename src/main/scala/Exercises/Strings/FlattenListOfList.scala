@@ -1,4 +1,6 @@
-package Exercises.Strings;object FlattenListOfList extends App{
+package Exercises.Strings
+
+object FlattenListOfList extends App{
 
         val list1 = List("pencil", "pen", "sharpener")
         val list2 = List("math book", "french book", "english book")

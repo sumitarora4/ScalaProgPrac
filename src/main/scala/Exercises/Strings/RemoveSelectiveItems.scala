@@ -1,4 +1,6 @@
-package Exercises.Strings;/**
+package Exercises.Strings
+
+/**
  * remove few items seq/list from a seq/list
  */
 object RemoveSelectiveItems extends App{

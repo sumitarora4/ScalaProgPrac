@@ -1,4 +1,6 @@
-package Exercises.Strings;object CommonItems extends App{
+package Exercises.Strings
+
+object CommonItems extends App{
 
 
         val basket1 = Set("Cake", "Milk", "Cheese", "Toilet Paper")
