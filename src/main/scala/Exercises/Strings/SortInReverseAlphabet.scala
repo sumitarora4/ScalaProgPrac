@@ -1,4 +1,4 @@
-package Exercises
+package Exercises.Strings
 
 import scala.collection.immutable.TreeMap
 
