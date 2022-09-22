@@ -9,6 +9,10 @@ object ExistInSeq extends App{
 
   // 2) using boolean function
   val anExistFunction:(Int) => Boolean = (i) => i==77
+
+  // 3) using boolean method
+  def anExistFunction2(i: Int): Boolean = i == 77
+
   val result2 = aSeq.exists(anExistFunction)
   println(result2)
 }

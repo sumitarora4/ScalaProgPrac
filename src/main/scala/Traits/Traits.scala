@@ -1,3 +1,5 @@
+package Traits
+
 class Animal
 
 trait Philosophical {

@@ -12,6 +12,6 @@ object OddNumbersBtwRange extends App{
   println(result.take(20).mkString("||"))
 
   //2) using syntax sugar
-  val oddNumbers = (300 to 350).filter(_ % 2 != 0).take(20).mkString("||")
+  val oddNumbers = (300 to 350).filter(_ % 2!= 0).take(20).mkString("||")
   print(oddNumbers)
 }

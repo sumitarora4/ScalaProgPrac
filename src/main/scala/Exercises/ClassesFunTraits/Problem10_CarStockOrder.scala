@@ -5,7 +5,8 @@ object Problem10_CarStockOrder extends App{
 
   case class Car(name: String, price: Double)
 
-//  define an aliased type named CarStock that will in effect, alias, Scala's Tuple2 type and represent a tuple or pair of Car and Int.
+//  define an aliased type named CarStock that will in effect, alias, Scala's Tuple2 type
+//  and represent a tuple or pair of Car and Int.
   type CarStock = Tuple2[Car, Int]
 
   val vwpassatStock = new CarStock(Car("vw passat", 10000), 100)

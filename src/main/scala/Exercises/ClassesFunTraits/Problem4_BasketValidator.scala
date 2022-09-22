@@ -19,5 +19,5 @@ object Problem4_BasketValidator extends App {
   }
 
   val basket = List("Cupcake", 2.99, 100L, 7, "Ice Cream")
-  basket.map(BasketValidator().validator(_))
+  basket.map(new BasketValidator().validator(_))
 }

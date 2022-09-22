@@ -11,7 +11,7 @@ object Maps {
     myMap += (3 -> "scala")
     print(myMap)
 
-//    using immutable map
+//    using mutable map
     val myMutableMap = scala.collection.mutable.Map[Int, String]()
     myMutableMap += (1 -> "programming")
     myMutableMap += (2 -> "in")
