@@ -5,10 +5,10 @@ package Exercises.Strings
 
 object Problem1_NameFilter extends App{
 
-  val aSet = Set("sumit_kumar_arora", "sumit.kumar.arora", "amit-gupta", "amit.gupta")
+  val aSet = Set("sumit_kumar_arora", "Sumit.kumar.arora", "amit-gupta", "amit.gupta")
 
   val newSet = aSet.map{
-    x => x.replaceAll("[^A-Za-z0-9]"," ")
+    x => x.toUpperCase().replaceAll("[^A-Za-z0-9]"," ")
   }
 
   println(newSet)

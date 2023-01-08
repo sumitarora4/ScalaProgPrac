@@ -28,6 +28,7 @@ object FunctionalProgrammingSimplified {
 
     // using functions as a variable through case class
     case class Person(firstName: String, middleName:String, lastName: String)
+
     val fullName = (p: Person) => s"${p.firstName} ${p.lastName}"
 
     val listOfPerson = List(Person("Sumit","Kumar", "Arora"), Person("Abeer", "Kumar", "Arora"))

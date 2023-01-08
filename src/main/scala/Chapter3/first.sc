@@ -49,7 +49,7 @@ def factorial(n:Int): Int ={
   
   
   
-  // variable arguments with scala functions when you dont know how many arguments you want to pass in function ============
+  // variable arguments with scala functions when you don't know how many arguments you want to pass in function ============
   
  def sumNew(args:Int*)= {
  

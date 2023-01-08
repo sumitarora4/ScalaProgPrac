@@ -18,7 +18,7 @@ object TraitsMembers extends App{
     // no need to override non-abstract var field
     y = 11
 
-    // need to override non-abstract val field
+    // override non-abstract val field
     override val z = 21
 
     def display{

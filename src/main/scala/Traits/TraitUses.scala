@@ -10,7 +10,7 @@ trait MyTrait{
   }
 
 // class needs to implement only abstract method
-// no need to implement non-abstract method as it is already implemented
+// no need to implement non-abstract method as it is already implemented in trait
   class TestClass extends MyTrait{
     override def greeting: Unit = {
       println("Hello world")

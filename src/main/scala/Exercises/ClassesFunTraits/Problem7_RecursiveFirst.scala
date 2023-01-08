@@ -2,6 +2,10 @@ package Exercises.ClassesFunTraits
 
 import scala.annotation.tailrec
 
+
+/**
+ * http://allaboutscala.com/tutorials/scala-exercises-solutions/
+ */
 object Problem7_RecursiveFirst extends App{
 
   case class Student(name: String, age: Int)

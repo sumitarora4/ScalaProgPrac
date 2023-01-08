@@ -14,13 +14,12 @@ object RemoveSelectiveItems extends App{
                 println(basketWithoutFruits1.mkString(","))
 
                 // 2) normal boolean function
-                        def fruitItemsFunction2(item: String): Boolean ={
-                        item match{
-                                case  "Apples"  => true
-                                        case  "Bananas"  => true
-                                        case _ => false
-                                }
-                        }
+                def fruitItemsFunction2(item: String): Boolean = {
+                  item match {
+                    case "Apples" | "Bananas" => true
+                    case _ => false
+                  }
+                }
 
                 val basketWithoutFruits2 = basket.filterNot(fruitItemsFunction2)
                 println(basketWithoutFruits2.mkString(","))

@@ -1,7 +1,8 @@
 package Exercises.ClassesFunTraits
 
 /**
-all these question are from
+all these question are from:
+
 http://allaboutscala.com/tutorials/scala-exercises-solutions/
 */
 object Problem2_AllaboutScala extends App{
@@ -12,7 +13,7 @@ object Problem2_AllaboutScala extends App{
   val item2 = ShoppingCart("chocolate biscuits", 3.99, 3)
   val item3 = ShoppingCart("cupcakes", 4.99, 5)
 
-  val basket = List(item1,item2, item2)
+  val basket = List(item1,item2, item3)
 
   def printCartItems(basket: List[ShoppingCart]) = {
 // we can use map or foreach function anyone of your choice to iterate basket

@@ -1,4 +1,6 @@
-package Exercises.Strings;object StringReverseUpper {
+package Exercises.Strings
+
+object StringReverseUpper {
 
         def main(args: Array[String]): Unit = {
 

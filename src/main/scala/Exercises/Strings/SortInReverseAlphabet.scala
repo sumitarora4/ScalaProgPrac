@@ -3,7 +3,9 @@ package Exercises.Strings
 import scala.collection.immutable.TreeMap
 
 object SortInReverseAlphabet extends  App {
+
   print(ReverseAlphabet.childrenToAge.mkString(","))
+
 }
 
 object ReverseAlphabet extends  Ordering[String]{

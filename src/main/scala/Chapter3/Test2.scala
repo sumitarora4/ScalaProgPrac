@@ -28,6 +28,7 @@ println(processOfList(List("sumit", "Kumar","arora")))
   val list2 = List(4,5,6)
 
   val rs1 = list1.zip(list2)
+  println(rs1)
   val res2 = rs1.map{
     x=> x._1 * x._2
 
@@ -36,14 +37,6 @@ println(processOfList(List("sumit", "Kumar","arora")))
   println(res2)
 
 
-
-
-  list1.map{x => list2.map{
-    y => x * y
-  }
-
-
-  }
 
 
    case class Employee(id: Int, name: String, salary: Double)

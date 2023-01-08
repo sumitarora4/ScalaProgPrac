@@ -11,8 +11,8 @@ object FutureForComprehension extends App{
   val f2 = Future{Thread.sleep(200); 2}
   val f3 = Future{Thread.sleep(400); 3}
 
-//   rum them in parallel in a for-comprehension
-  val result = for{
+//   run them in parallel in a for-comprehension
+  val result: Future[Int] = for{
     r1 <- f1
     r2 <- f2
     r3 <- f3

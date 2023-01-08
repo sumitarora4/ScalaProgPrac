@@ -7,8 +7,8 @@ object ExistInSeq extends App{
   val result = aSeq.contains(77)
   println(result)
 
-  // 2) using boolean function
-  val anExistFunction:(Int) => Boolean = (i) => i==77
+  // 2) using boolean function value
+  val anExistFunction: Int => Boolean = i => i==77
 
   // 3) using boolean method
   def anExistFunction2(i: Int): Boolean = i == 77
